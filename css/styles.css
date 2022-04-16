@@ -1,0 +1,53 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+    width: 1600px;
+}
+.header {
+    display: flex;
+    list-style: none;
+}
+.logo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+span {
+    color: #000;
+}
+.header {
+    height: 80px;
+    background: #FFFFFF;
+}
+.baner {
+    background: #2F303A;
+    height: 600px;
+}
+.baner-blok {
+    padding: 200px 452px;
+    text-align: center;
+}
+.baner-title {
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.baner-button {
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    padding: .10px 32px;
+}
