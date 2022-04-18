@@ -116,3 +116,100 @@ button:hover {
     color: #FFFFFF;
     padding: .10px 32px;
 }
+ /* main {
+  
+} */
+.conteiner {
+    width: 1170px;
+    margin: auto 215px;
+    text-align: center;
+}
+.bth {
+    margin-right: 8px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+/* .section {
+    
+} */
+.main-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.title {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.list {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* .list-item {
+    margin-right: 30px;
+    margin-left: 30px;
+
+} */
+.list-title {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.list-page {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
+
+
+footer {
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background: #2F303A;
+    padding: 60px 0;
+    
+}
+.footer-pages {
+    margin-top: 20px;
+    margin-bottom: 9px;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+
+}
+.footer-list {
+    padding-bottom: 9px;
+    text-decoration: none;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.filter {
+    text-align: center;
+}
