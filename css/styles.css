@@ -1,6 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto';
     color: #000;
     width: 1600px;
 }
@@ -25,7 +26,7 @@ li {
 }
 .logo {
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
@@ -37,16 +38,15 @@ li {
 .nav {
     margin: 0 auto;
     margin-left: 0;
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
-
+    text-align: right;
 }
 .nav :hover {
     color: #2196F3;
+    text-decoration: none;
 }
 .info>a {
     text-decoration: none;
@@ -61,7 +61,8 @@ li {
     letter-spacing: 0.02em;
 }
 .info :hover {
-    color: #2196F3 
+    color: #2196F3;
+    text-decoration: none;
 }
 .nav-list {
     padding-right: 50px;
@@ -95,6 +96,7 @@ button:hover {
 .baner-blok {
     padding: 200px 452px;
     text-align: center;
+    margin-top: 0;
 }
 .baner-title {
     margin-bottom: 30px;
@@ -115,6 +117,7 @@ button:hover {
     letter-spacing: 0.06em;
     color: #FFFFFF;
     padding: .10px 32px;
+
 }
  /* main {
   
@@ -122,7 +125,12 @@ button:hover {
 .conteiner {
     width: 1170px;
     margin: auto 215px;
-    text-align: center;
+    
+}
+.feature {
+    
+    text-align: left;
+    display: flex;
 }
 .bth {
     margin-right: 8px;
@@ -133,10 +141,12 @@ button:hover {
     color: #212121;
     background: #F5F4FA;
     border-radius: 4px;
+    height: 38px;
 }
-/* .section {
-    
-} */
+section {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
 .main-title {
     font-style: normal;
     font-weight: 700;
@@ -145,6 +155,8 @@ button:hover {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-top: 94px;
+    margin: 50px;
 }
 .title {
     font-size: 14px;
@@ -159,11 +171,34 @@ button:hover {
     letter-spacing: 0.03em;
     color: #757575;
 }
-/* .list-item {
-    margin-right: 30px;
-    margin-left: 30px;
+.list-title-portfolio {
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
 
-} */
+}
+.list-page-portfolio {
+    font-size: 16px;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.container-bg {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.list-item {
+    margin-bottom: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+}
+
 .list-title {
     font-size: 16px;
     line-height: 19px;
@@ -188,6 +223,7 @@ footer {
     top: 2097px;
     background: #2F303A;
     padding: 60px 0;
+    margin-top: 64px;
     
 }
 .footer-pages {
@@ -209,7 +245,17 @@ footer {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+.footer-row {
+    margin: 60px 215px;
+}
+.logo-footer {
+    color: #FFFFFF;
+}
 
 .filter {
     text-align: center;
+    margin-top: 94px;
+    margin-bottom: 50px;
+
+
 }
